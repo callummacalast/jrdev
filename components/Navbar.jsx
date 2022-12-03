@@ -11,7 +11,6 @@ const Navbar = () => {
   const handleClick = () => {
     setActive(!active);
   };
-
   return (
     <nav className="bg-gray-9000 border-gray-200 px-2 sm:px-4 py-2.5  text-gray-100">
       <div className="container flex flex-wrap  justify-between items-center mx-auto py-5">
