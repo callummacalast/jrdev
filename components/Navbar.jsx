@@ -7,7 +7,6 @@ import { set } from 'nprogress';
 const Navbar = () => {
   const [active, setActive] = useState(false);
   const router = useRouter();
-
   const handleClick = () => {
     setActive(!active);
   };
